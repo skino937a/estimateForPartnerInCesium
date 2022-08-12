@@ -1,0 +1,59 @@
+{
+  "_from": "cesium-gsi-terrain",
+  "_id": "cesium-gsi-terrain@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-pjRNnfs9O+NnxMELVbsiHQ00Ame0ddRY18wHKC05b1vvYg50f2Msca1K437p32tsghqxkjpk95sbNEcM+WMdXQ==",
+  "_location": "/cesium-gsi-terrain",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cesium-gsi-terrain",
+    "name": "cesium-gsi-terrain",
+    "escapedName": "cesium-gsi-terrain",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cesium-gsi-terrain/-/cesium-gsi-terrain-1.0.0.tgz",
+  "_shasum": "38af5f1103348e3907a4df4b25600b4a3c0cdd3c",
+  "_spec": "cesium-gsi-terrain",
+  "_where": "C:\\Users\\admin",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@here/quantized-mesh-decoder": "^1.1.3",
+    "@mapbox/martini": "^0.2.0",
+    "axios": "^0.19.2",
+    "cesium": "^1.68.0",
+    "get-pixels": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "Cesiumで国土地理院の標高タイルを用いた地形表現を行うためのモジュール",
+  "devDependencies": {
+    "@types/cesium": "^1.67.3",
+    "@types/ndarray": "^1.0.7",
+    "typescript": "^3.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "gis",
+    "cesium",
+    "gsi"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "cesium-gsi-terrain",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.0.0"
+}

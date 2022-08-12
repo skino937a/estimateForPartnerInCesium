@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>GSI Tiles on Cesium</title>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="robots" content="index, all" />
-    <script src="https://skino937a.github.io/estimateForPartnerInCesium/ol-cesium-2.13/src/olcs/OLCesium.js"></script>
-    <link href="https://skino937a.github.io/estimateForPartnerInCesium/ol-cesium-2.13/css/olcs.css" rel="stylesheet">
-    <title>olcesium ground vectors example</title>
-    <link rel="stylesheet" href="../node_modules/ol/ol.css" type="text/css"></link>
-    <style>.cesium-credit-textContainer { display: inline-block; font-size: 50%; line-height: 100%;}</style>
-  </head>
-  <body>
-    <div id="map2d" style="width:600px;height:400px;float:left;"></div>
-    <div id="map3d" style="width:600px;height:400px;float:left;position:relative;"></div>
-    <div><input id="enable" type="button" value="Enable/disable Cesium" /></div>
-    <div><input type="button" value="Toggle clampToGround mode"
-      onclick="javascript:toggleClampToGround(); ol3d.getAutoRenderLoop().restartRenderLoop()" /></div>
-    <div>Vectors are synchronized from the OpenLayers map to the Cesium scene.
-      <br/>3D positioning and some styling is supported, with optional clamping to the ground.</div>
-    <script src="inject_ol_cesium.js"></script>
-  </body>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, all" />
+  <script src="https://skino937a.github.io/estimateForPartnerInCesium/ol-cesium-2.13/src/olcs/OLCesium.js"></script>
+  <link href="https://skino937a.github.io/estimateForPartnerInCesium/ol-cesium-2.13/css/olcs.css" rel="stylesheet">
+  <title>olcesium ground vectors example</title>
+  <link rel="stylesheet" href="../node_modules/ol/ol.css" type="text/css"></link>
+  <style>.cesium-credit-textContainer { display: inline-block; font-size: 50%; line-height: 100%;}</style>
+</head>
+<body>
+  <div id="map2d" style="width:600px;height:400px;float:left;"></div>
+  <div id="map3d" style="width:600px;height:400px;float:left;position:relative;"></div>
+  <div><input id="enable" type="button" value="Enable/disable Cesium" /></div>
+  <div><input type="button" value="Toggle clampToGround mode"
+    onclick="javascript:toggleClampToGround(); ol3d.getAutoRenderLoop().restartRenderLoop()" /></div>
+  <div>Vectors are synchronized from the OpenLayers map to the Cesium scene.
+    <br/>3D positioning and some styling is supported, with optional clamping to the ground.</div>
+  <script src="inject_ol_cesium.js"></script>
 </body>
 </html>
